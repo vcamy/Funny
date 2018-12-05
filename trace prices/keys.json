@@ -1,0 +1,36 @@
+{
+  "subitems":
+  [
+    {
+		"urls": ["https://www.mitre10.co.nz//shop//goldair-air-circulator-fan-50cm//p//130377"],
+		"keys": {
+			"span": {
+				"class": "(product--title)|(product--price-dollars)|(product--price-cents)"
+			}	
+		},	
+		"filename": "C:\\Users\\testDairy.csv"
+    },
+    {
+      "urls": ["https://www.noelleeming.co.nz/shop/computers-tablets/laptops/macbooks/apple-mqd32x-a-macbook-air-13-1-8ghz-8gb-128gb/prod155374.html"],
+      "keys": {
+		"span":{
+					"itemprop":"name",
+					"class":"price-lockup__pricing-price"
+				}
+      },
+      "filename": "C:\\Users\\testDairy.csv"
+    },
+	{
+		"urls":["https://www.bunnings.co.nz/deck-the-halls-70cm-x-15m-cute-designs-festive-wrapping-paper_p00039683"],
+		"keys":{
+			"h1":{
+			"itemprop":"name"
+			},
+			"div":{
+			"class":"price-value"
+			}
+		},
+		"filename": "C:\\Users\\testDairy.csv"
+	}
+  ]
+}
