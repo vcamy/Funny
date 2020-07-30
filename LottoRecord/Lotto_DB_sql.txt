@@ -1,0 +1,19 @@
+CREATE TABLE LottoDraws(
+	ID int NOT NULL identity(1,1),
+	DrawID int,
+	DrawDate varchar(255),
+	NumOne int,
+	NumTwo int,
+	NumThree int,
+	NumFour int,
+	NumFive int,
+	NumSix int,
+	Bonus int,
+	Powerball int,);
+	
+ALTER TABLE [dbo].[LottoDraws]
+ADD PRIMARY KEY(ID);
+
+##TEST DATA
+INSERT INTO [dbo].[LottoDraws](DrawID, DrawDate, NumOne, NumTwo, NumThree, NumFour,NumFive,NumSix,Bonus,Powerball) values (1930, '29-03-2020', 01,02,03,04,05,06,07,08);
+
